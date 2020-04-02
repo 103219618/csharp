@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/bin/Debug/netcoreapp3.1/task4.deps.json
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/bin/Debug/netcoreapp3.1/task4.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/bin/Debug/netcoreapp3.1/task4.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/bin/Debug/netcoreapp3.1/task4.dll
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/bin/Debug/netcoreapp3.1/task4.pdb
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/obj/Debug/netcoreapp3.1/task4.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/obj/Debug/netcoreapp3.1/task4.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/obj/Debug/netcoreapp3.1/task4.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/obj/Debug/netcoreapp3.1/task4.dll
+/Users/syedasimrazvi/Desktop/csharp/nestedrepetition/task4/obj/Debug/netcoreapp3.1/task4.pdb
