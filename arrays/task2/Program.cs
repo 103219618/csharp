@@ -29,14 +29,15 @@ namespace task2
                 index++;
             }
 
-            System.Console.WriteLine("------");
+            System.Console.WriteLine("------------");
 
             int total = 0;
             for (int i = 0; i < numbers.Length; i++)
             {
                 total += numbers[i];
             }
-            System.Console.WriteLine("= " + total);
+            System.Console.WriteLine("Total = " + total);
+            System.Console.WriteLine("------------");
         }
     }
 }
