@@ -6,7 +6,9 @@ namespace task1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Task2!");
+            int size = 5;
+            int[] number = new int[size];
+
         }
     }
 }
