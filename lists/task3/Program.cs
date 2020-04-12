@@ -17,26 +17,19 @@ namespace task3
 
                 if (wordlist.Contains("stop"))
                 {
-                    Console.WriteLine("=============================================");
-                    Console.WriteLine("!!!The Words you entered in Reverse Order!!!");
-                    Console.WriteLine("=============================================");
+                    System.Console.WriteLine("^^^Reverse Order of Above Words^^^");
                     wordlist.Reverse();
-
-                    // if we want to exclude the word stop from the display
-                    // wordlist.RemoveAt(index: 0);
-
                     wordlist.ForEach(x => { Console.WriteLine(x); });
-
                 }
                 else
                 {
                     Console.WriteLine("Please Enter a word?");
-                    wordlist.Add((Console.ReadLine()));
+                    wordlist.Add(Console.ReadLine());
                 }
+
+                Console.ReadKey();
+
             }
-
-
-            Console.ReadKey();
         }
     }
 }
