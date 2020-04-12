@@ -10,7 +10,7 @@ namespace task2
         {
             List<int> numberlist = new List<int>();
 
-            Console.WriteLine("Please Enter 5 Numbers?");
+            System.Console.WriteLine("Please Enter 5 Numbers?");
 
             int addingNumber = 0;
 
@@ -20,8 +20,8 @@ namespace task2
                 addingNumber++;
             }
 
-            Console.WriteLine("Thanks :)");
-            Console.WriteLine("Enter a Number to check against the List?");
+            System.Console.WriteLine("Thanks :)");
+            System.Console.WriteLine("Enter a Number to check against the List?");
             int usernumber = int.Parse(Console.ReadLine());
 
             int times = 0;
@@ -35,12 +35,12 @@ namespace task2
 
             if (times > 0)
             {
-                Console.WriteLine(usernumber + " is already entered " + times + " times");
+                System.Console.WriteLine(usernumber + " is already entered " + times + " times");
             }
 
             else
             {
-                Console.WriteLine("This Number is not in the List");
+                System.Console.WriteLine("This Number is not in the List");
             }
 
             Console.ReadKey();
