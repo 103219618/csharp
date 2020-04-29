@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/bin/Debug/netcoreapp3.1/task1.deps.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/bin/Debug/netcoreapp3.1/task1.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/bin/Debug/netcoreapp3.1/task1.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/bin/Debug/netcoreapp3.1/task1.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/bin/Debug/netcoreapp3.1/task1.pdb
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/obj/Debug/netcoreapp3.1/task1.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/obj/Debug/netcoreapp3.1/task1.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/obj/Debug/netcoreapp3.1/task1.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/obj/Debug/netcoreapp3.1/task1.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task1/obj/Debug/netcoreapp3.1/task1.pdb
