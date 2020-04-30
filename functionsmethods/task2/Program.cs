@@ -4,19 +4,16 @@ namespace task2
 {
     class Program
     {
+        static void name()
+        {
+            Console.WriteLine("Please input a name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Welcome friend " + name);
+            Console.WriteLine("Have a nice day!");
+        }
         static void Main(string[] args)
         {
-            int myNum = 5;
-            double myDoubleNum = 5.99;
-            char myLetter = 'D';
-            bool myBool = true;
-            string myText = "Hello";
-            Console.WriteLine(myNum);
-            Console.WriteLine(myDoubleNum);
-            Console.WriteLine(myLetter);
-            Console.WriteLine(myBool);
-            Console.WriteLine(myText);
-
+            name();
         }
     }
 }
