@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/obj/Debug/netcoreapp3.1/task9.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/obj/Debug/netcoreapp3.1/task9.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/obj/Debug/netcoreapp3.1/task9.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/bin/Debug/netcoreapp3.1/task9.deps.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/bin/Debug/netcoreapp3.1/task9.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/bin/Debug/netcoreapp3.1/task9.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/bin/Debug/netcoreapp3.1/task9.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/bin/Debug/netcoreapp3.1/task9.pdb
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/obj/Debug/netcoreapp3.1/task9.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task9/obj/Debug/netcoreapp3.1/task9.pdb
