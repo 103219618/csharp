@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/bin/Debug/netcoreapp3.1/task6.deps.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/bin/Debug/netcoreapp3.1/task6.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/bin/Debug/netcoreapp3.1/task6.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/bin/Debug/netcoreapp3.1/task6.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/bin/Debug/netcoreapp3.1/task6.pdb
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/obj/Debug/netcoreapp3.1/task6.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/obj/Debug/netcoreapp3.1/task6.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/obj/Debug/netcoreapp3.1/task6.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/obj/Debug/netcoreapp3.1/task6.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task6/obj/Debug/netcoreapp3.1/task6.pdb
