@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/bin/Debug/netcoreapp3.1/task12opt.deps.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/bin/Debug/netcoreapp3.1/task12opt.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/bin/Debug/netcoreapp3.1/task12opt.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/bin/Debug/netcoreapp3.1/task12opt.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/bin/Debug/netcoreapp3.1/task12opt.pdb
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/obj/Debug/netcoreapp3.1/task12opt.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/obj/Debug/netcoreapp3.1/task12opt.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/obj/Debug/netcoreapp3.1/task12opt.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/obj/Debug/netcoreapp3.1/task12opt.dll
+/Users/syedasimrazvi/Desktop/csharp/functionsmethods/task12opt/obj/Debug/netcoreapp3.1/task12opt.pdb
