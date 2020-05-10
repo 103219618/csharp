@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/bin/Debug/netcoreapp3.1/task11.deps.json
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/bin/Debug/netcoreapp3.1/task11.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/bin/Debug/netcoreapp3.1/task11.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/bin/Debug/netcoreapp3.1/task11.dll
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/bin/Debug/netcoreapp3.1/task11.pdb
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/obj/Debug/netcoreapp3.1/task11.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/obj/Debug/netcoreapp3.1/task11.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/obj/Debug/netcoreapp3.1/task11.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/obj/Debug/netcoreapp3.1/task11.dll
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/obj/Debug/netcoreapp3.1/task11.pdb
