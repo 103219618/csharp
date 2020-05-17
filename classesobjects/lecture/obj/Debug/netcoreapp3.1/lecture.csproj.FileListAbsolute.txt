@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/bin/Debug/netcoreapp3.1/lecture.deps.json
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/bin/Debug/netcoreapp3.1/lecture.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/bin/Debug/netcoreapp3.1/lecture.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/bin/Debug/netcoreapp3.1/lecture.dll
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/bin/Debug/netcoreapp3.1/lecture.pdb
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/obj/Debug/netcoreapp3.1/lecture.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/obj/Debug/netcoreapp3.1/lecture.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/obj/Debug/netcoreapp3.1/lecture.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/obj/Debug/netcoreapp3.1/lecture.dll
+/Users/syedasimrazvi/Desktop/csharp/classesobjects/lecture/obj/Debug/netcoreapp3.1/lecture.pdb
