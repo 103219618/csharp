@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-namespace task11
+namespace task1
 {
     class Program
     {
