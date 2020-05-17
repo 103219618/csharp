@@ -35,7 +35,7 @@ namespace task1
         //attributes
         public int weight;
         public string shape;
-        public Color c;
+        public Color clr;
 
         //constructors
         public Cookie(int w, string s)
@@ -48,7 +48,7 @@ namespace task1
         {
             this.weight = w;
             this.shape = s;
-            this.c = n;
+            this.clr = n;
         }
 
     }
