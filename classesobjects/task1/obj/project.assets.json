@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/task11.csproj",
-      "projectName": "task11",
-      "projectPath": "/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/task11.csproj",
+      "projectUniqueName": "/Users/syedasimrazvi/Desktop/csharp/classesobjects/task1/task1.csproj",
+      "projectName": "task1",
+      "projectPath": "/Users/syedasimrazvi/Desktop/csharp/classesobjects/task1/task1.csproj",
       "packagesPath": "/Users/syedasimrazvi/.nuget/packages/",
-      "outputPath": "/Users/syedasimrazvi/Desktop/csharp/classesobjects/task11/obj/",
+      "outputPath": "/Users/syedasimrazvi/Desktop/csharp/classesobjects/task1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/syedasimrazvi/.nuget/NuGet/NuGet.Config"
