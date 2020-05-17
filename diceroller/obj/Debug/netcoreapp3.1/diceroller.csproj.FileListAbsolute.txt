@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/diceroller/bin/Debug/netcoreapp3.1/diceroller.deps.json
+/Users/syedasimrazvi/Desktop/csharp/diceroller/bin/Debug/netcoreapp3.1/diceroller.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/diceroller/bin/Debug/netcoreapp3.1/diceroller.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/diceroller/bin/Debug/netcoreapp3.1/diceroller.dll
+/Users/syedasimrazvi/Desktop/csharp/diceroller/bin/Debug/netcoreapp3.1/diceroller.pdb
+/Users/syedasimrazvi/Desktop/csharp/diceroller/obj/Debug/netcoreapp3.1/diceroller.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/diceroller/obj/Debug/netcoreapp3.1/diceroller.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/diceroller/obj/Debug/netcoreapp3.1/diceroller.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/diceroller/obj/Debug/netcoreapp3.1/diceroller.dll
+/Users/syedasimrazvi/Desktop/csharp/diceroller/obj/Debug/netcoreapp3.1/diceroller.pdb
