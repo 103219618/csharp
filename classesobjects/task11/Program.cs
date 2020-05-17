@@ -6,70 +6,69 @@ namespace task11
     {
         static void Main(string[] args)
         {
-            // instantiate a new car
-            Car c1 = new Car();
-            Car c2 = new Car("ABC123", 5, 0, 0, 0);
+            // instantiate cookie
+            var clr1 = new Color(255, 255, 0, "Yellow");
+            var clr2 = new Color(128, 128, 0, "Olive");
+            var clr3 = new Color(0, 0, 255, "Blue");
 
-            Console.WriteLine("Before: " + c2.Passengers);
-            c2.UpdatePassengers(5);
-            Console.WriteLine("After: " + c2.Passengers);
+            var ck1 = new Cookie(25, "Crescent", clr1);
+            var ck2 = new Cookie(30, "Round", clr2);
+            var ck3 = new Cookie(20, "Square", clr3);
+            var ck4 = new Cookie(40, "Car", clr2);
 
-            c2.UpdatePassengers(-6);
-            Console.WriteLine("After: " + c2.Passengers);
-
-
+            Console.WriteLine();
+            Console.WriteLine("The Weight of the Cookie is " + ck1.weight + " grams and the Shape is " + ck1.shape + " and the Color is " + clr1.name + ".");
+            Console.WriteLine();
+            Console.WriteLine("The Weight of the Cookie is " + ck2.weight + " grams and the Shape is " + ck2.shape + " and the Color is " + clr2.name + ".");
+            Console.WriteLine();
+            Console.WriteLine("The Weight of the Cookie is " + ck3.weight + " grams and the Shape is " + ck3.shape + " and the Color is " + clr3.name + ".");
+            Console.WriteLine();
+            Console.WriteLine("The Weight of the Cookie is " + ck4.weight + " grams and the Shape is " + ck2.shape + " and the Color is " + clr2.name + ".");
+            Console.WriteLine();
         }
     }
 
-    class Car
+
+    // class cookies
+    class Cookie
     {
         //attributes
-        public string Rego;
-        public int PassengerLimit;
-        public int Passengers;
-        public int Xcord;
-        public int Ycord;
+        public int weight;
+        public string shape;
+        public Color c1;
 
-        //=================================
+        //constructors
+        public Cookie(int w, string s)
+        {
+            this.weight = 0;
+            this.shape = "";
+        }
+
+        public Cookie(int w, string s, Color n)
+        {
+            this.weight = w;
+            this.shape = s;
+            this.c1 = n;
+        }
+
+    }
+
+    // class color
+    class Color
+    {
+        // attributes
+        public int red = 0;
+        public int green = 0;
+        public int blue = 0;
+        public string name = "";
+
         // constructors
-        public Car()
+        public Color(int r, int g, int b, string n)
         {
-            this.Rego = "";
-            this.PassengerLimit = 0;
-            this.Passengers = 0;
-            this.Xcord = 0;
-            this.Ycord = 0;
-        }
-
-        public Car(string rego, int pl, int pass, int x, int y)
-        {
-            this.Rego = rego;
-            this.PassengerLimit = pl;
-            this.Passengers = pass;
-            this.Xcord = x;
-            this.Ycord = y;
-        }
-
-
-        //=================================
-        //operations
-
-        /// adds number of newPassengers to passengers. To remove passengers provide negative newPassengers value
-        public void UpdatePassengers(int newPassengers)
-        {
-            // check to not exceed passenger limit
-
-            if (this.Passengers + newPassengers <= this.PassengerLimit && this.Passengers + newPassengers >= 0)
-            {
-                this.Passengers += newPassengers;
-            }
-        }
-
-        public void Move(int newX, int newY)
-        {
-            this.Xcord = newX;
-            this.Ycord = newY;
-
+            this.red = r;
+            this.blue = b;
+            this.green = g;
+            this.name = n;
         }
     }
 }
