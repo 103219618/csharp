@@ -87,14 +87,22 @@ namespace diceroller
 
         // methods
         /// rolls a spcific die from the Dice List. PARAMETER: indexing starts at 0
+
         public int RollDie(int die)
         {
-            int roll = Dice[die].Roll();
+            int roll = -1; // if die is out of range will return -1
+            if (die < 0 && die > Dice.Count)
+            {
+                roll = Dice[die].Roll();
+            }
             return roll; //placeholder
         }
+
+
+        // roll all of the player's dice once and return the total (TASK)
         public int RollAllDice()
         {
-            return 0;
+            return 0; // placeholder
         }
 
         public void AddNewDie(int sides)
