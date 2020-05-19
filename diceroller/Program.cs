@@ -22,7 +22,21 @@ namespace diceroller
             Person p1 = new Person("william wallace", diceList1);
             Person p2 = new Person("Joan of Arc", diceList2);
 
-            Console.WriteLine();
+            Console.WriteLine(p1.Name);
+            Console.WriteLine(p1.Dice.Count);
+
+            Console.WriteLine(p2.Name);
+            Console.WriteLine(p2.Dice.Count);
+            p2.AddNewDie(18);
+
+            Console.WriteLine(p2.Dice.Count);
+
+            for (int i = 0; i < 20; i++)
+            {
+                // roll william wallace's second die
+                Console.WriteLine(p1.RollDie(1));
+            }
+
         }
     }
 
@@ -46,7 +60,10 @@ namespace diceroller
         //method
         public int Roll()
         {
-            return 0; //placeholder
+            Random rand = new Random();
+            int roll = rand.Next(1, this.NumOfSides + 1); // (1,7) NO as not all dice are 6 sided dice
+
+            return roll; //placeholder
         }
     }
 
@@ -69,13 +86,21 @@ namespace diceroller
         }
 
         // methods
-        public int Roll(int die)
+        /// rolls a spcific die from the Dice List. PARAMETER: indexing starts at 0
+        public int RollDie(int die)
         {
-            return 0; //placeholder
+            int roll = Dice[die].Roll();
+            return roll; //placeholder
         }
         public int RollAllDice()
         {
             return 0;
+        }
+
+        public void AddNewDie(int sides)
+        {
+            Die d = new Die(sides);
+            this.Dice.Add(d);
         }
     }
 }
