@@ -7,6 +7,7 @@ namespace diceroller
     {
         static void Main(string[] args)
         {
+            /*
             Die d1 = new Die();
             Die d2 = new Die(12);
             Die d3 = new Die(20);
@@ -33,6 +34,12 @@ namespace diceroller
 
             var rollVal = p1.RollAllDice();
             Console.WriteLine(rollVal);
+            */
+
+            // testing Game
+
+            Game g = new Game("John", "Jane");
+            g.Start();
 
         }
     }
