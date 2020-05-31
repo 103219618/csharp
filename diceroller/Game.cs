@@ -21,6 +21,7 @@ namespace diceroller
             System.Console.WriteLine("1. Add Die to Player");
             System.Console.WriteLine("2. Roll Dice");
             System.Console.WriteLine("3. View Player info");
+            System.Console.WriteLine("4. Quit");
             System.Console.Write("Selection: ");
 
             var userSelection = Console.ReadLine();
@@ -33,6 +34,7 @@ namespace diceroller
                     break;
                 case "2":
                     // go to the Roll Dice menu
+                    RollDice();
                     break;
                 case "3":
                     // view player information
@@ -40,7 +42,7 @@ namespace diceroller
                     break;
 
                 default:
-                    Start();
+                    System.Console.WriteLine("Thank you for playing!");
                     break;
             }
         }
@@ -89,8 +91,24 @@ namespace diceroller
 
             Start();
 
-
+        }
+        public void RollDice()
+        {
+            System.Console.WriteLine("Pick a player to Roll their Dice (1 or 2)");
+            var userSelection = Console.ReadLine();
+            if (userSelection == "1")
+            {
+                int Result = p1.RollAllDice();
+                System.Console.WriteLine("Total Dice number Rolled: " + Result);
+            }
+            else if (userSelection == "2")
+            {
+                int Result = p2.RollAllDice();
+                System.Console.WriteLine("Total Dice number Rolled: " + Result);
+            }
+            Start();
 
         }
+
     }
 }
