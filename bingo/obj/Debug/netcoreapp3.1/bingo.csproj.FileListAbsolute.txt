@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/bingo/bin/Debug/netcoreapp3.1/bingo.deps.json
+/Users/syedasimrazvi/Desktop/csharp/bingo/bin/Debug/netcoreapp3.1/bingo.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/bingo/bin/Debug/netcoreapp3.1/bingo.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/bingo/bin/Debug/netcoreapp3.1/bingo.dll
+/Users/syedasimrazvi/Desktop/csharp/bingo/bin/Debug/netcoreapp3.1/bingo.pdb
+/Users/syedasimrazvi/Desktop/csharp/bingo/obj/Debug/netcoreapp3.1/bingo.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/bingo/obj/Debug/netcoreapp3.1/bingo.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/bingo/obj/Debug/netcoreapp3.1/bingo.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/bingo/obj/Debug/netcoreapp3.1/bingo.dll
+/Users/syedasimrazvi/Desktop/csharp/bingo/obj/Debug/netcoreapp3.1/bingo.pdb
