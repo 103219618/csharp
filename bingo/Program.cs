@@ -6,7 +6,8 @@ namespace bingo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game g = new Game("John", "Jane");
+            g.Start();
         }
     }
 }
