@@ -51,9 +51,15 @@ namespace bingo
                     CheckSpNo();
                     break;
 
+                case "4":
+                    System.Console.WriteLine("Thank you for playing!");
+                    Environment.Exit(0);
+                    break;
+
 
                 default:
-                    System.Console.WriteLine("Thank you for playing!");
+                    System.Console.WriteLine("Incorrect Selection!");
+                    bingoMenu();
                     break;
             }
 
@@ -85,6 +91,7 @@ namespace bingo
 
                 default:
                     System.Console.WriteLine("Incorrect Selection!");
+                    ViewDrNo();
                     break;
             }
 
