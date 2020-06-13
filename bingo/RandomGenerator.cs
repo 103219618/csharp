@@ -46,6 +46,10 @@ namespace bingo
                 case "2":
                     ViewDrNo();
                     break;
+                
+                case "3":
+                    CheckSpNo();
+                    break;
 
 
                 default:
@@ -95,6 +99,23 @@ namespace bingo
             drawnNo.Sort(); //sorts the numbers
             drawnNo.ForEach(x =>{Console.WriteLine(x);}); //displays numbers from list
             ViewDrNo();
+        }
+
+        public void CheckSpNo()
+        {
+            Console.Write("Enter a Number to Check: ");
+            int userNumber = int.Parse(Console.ReadLine());
+
+            if(this.drawnNo.Contains(userNumber)){
+                System.Console.WriteLine("Number is in the list");
+
+                CheckSpNo();
+            }else{
+                System.Console.WriteLine("Oh-Number not is the list");
+
+                CheckSpNo();
+            }
+
         }
     }
 }
