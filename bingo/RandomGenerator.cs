@@ -26,7 +26,7 @@ namespace bingo
 
         public void bingoMenu()
         {
-            Console.WriteLine(drawnNo.Count);
+            System.Console.WriteLine("Total Numbers Drawn: " + drawnNo.Count);
             System.Console.WriteLine("Welcome to the Swinburne Bingo Club");
             System.Console.WriteLine("1. Draw next number");
             System.Console.WriteLine("2. View all drawn numbers");
@@ -46,7 +46,7 @@ namespace bingo
                 case "2":
                     ViewDrNo();
                     break;
-                
+
                 case "3":
                     CheckSpNo();
                     break;
@@ -91,30 +91,38 @@ namespace bingo
         }
         public void ViewDrNo1()
         {
-            drawnNo.ForEach(x =>{Console.WriteLine(x);}); //displays numbers from list
+            drawnNo.ForEach(x => { Console.WriteLine(x); }); //displays numbers from list
             ViewDrNo();
         }
         public void ViewDrNo2()
         {
             drawnNo.Sort(); //sorts the numbers
-            drawnNo.ForEach(x =>{Console.WriteLine(x);}); //displays numbers from list
+            drawnNo.ForEach(x => { Console.WriteLine(x); }); //displays numbers from list
             ViewDrNo();
         }
 
         public void CheckSpNo()
         {
-            Console.Write("Enter a Number to Check: ");
-            int userNumber = int.Parse(Console.ReadLine());
+            Console.Write("Enter a Number to Check or Press 'M' to go back to Bingo Menu: ");
+            string userNumber = Console.ReadLine();
 
-            if(this.drawnNo.Contains(userNumber)){
-                System.Console.WriteLine("Number is in the list");
+            while (userNumber.ToUpper() != "M")
+            {
+                int specificNumber = int.Parse(userNumber);
+                if (this.drawnNo.Contains(specificNumber))
+                {
+                    System.Console.WriteLine("Number is in the list");
 
-                CheckSpNo();
-            }else{
-                System.Console.WriteLine("Oh-Number not is the list");
+                    CheckSpNo();
+                }
+                else
+                {
+                    System.Console.WriteLine("Oh-Number not is the list");
 
-                CheckSpNo();
+                    CheckSpNo();
+                }
             }
+            bingoMenu();
 
         }
     }
