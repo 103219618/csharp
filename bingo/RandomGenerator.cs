@@ -16,11 +16,18 @@ namespace bingo
 
         Random random = new Random();
         public void RandomNumber()
-        {
+        {   
+            if(drawnNo.Count == this.upperNumber){
+                System.Console.WriteLine("!!!All Numbers Drawn, Cannot Draw Duplicate Numbers!!!");
+            }else{
 
             int rand;
-            rand = random.Next(1, upperNumber);
+            do
+            {
+                rand = random.Next(1, this.upperNumber + 1);
+            } while (drawnNo.Contains(rand));
             drawnNo.Add(rand);
+            }
             bingoMenu();
         }
 
@@ -52,8 +59,8 @@ namespace bingo
                     break;
 
                 case "4":
-                    System.Console.WriteLine("Thank you for playing!");
-                    Environment.Exit(0);
+                    System.Console.WriteLine("Thank You for Playing!");
+                    Environment.Exit(0); //was getting error so had to add this to force exit
                     break;
 
 
@@ -110,7 +117,7 @@ namespace bingo
 
         public void CheckSpNo()
         {
-            Console.Write("Enter a Number to Check or Press 'M' to go back to Bingo Menu: ");
+            Console.Write("Enter a Number to Check OR Press 'M' to go back to Bingo Menu: ");
             string userNumber = Console.ReadLine();
 
             while (userNumber.ToUpper() != "M")
@@ -118,13 +125,13 @@ namespace bingo
                 int specificNumber = int.Parse(userNumber);
                 if (this.drawnNo.Contains(specificNumber))
                 {
-                    System.Console.WriteLine("Number is in the list");
+                    System.Console.WriteLine("Yay! Number is in the List!");
 
                     CheckSpNo();
                 }
                 else
                 {
-                    System.Console.WriteLine("Oh-Number not is the list");
+                    System.Console.WriteLine("Oops! Number is not in the list");
 
                     CheckSpNo();
                 }
