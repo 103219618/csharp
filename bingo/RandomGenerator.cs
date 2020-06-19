@@ -5,7 +5,7 @@ namespace bingo
 {
     public class RandomGenerator
     {
-        int upperNumber;
+        public int upperNumber;
 
         public List<int> drawnNo = new List<int>();
 
@@ -16,17 +16,20 @@ namespace bingo
 
         Random random = new Random();
         public void RandomNumber()
-        {   
-            if(drawnNo.Count == this.upperNumber){
-                System.Console.WriteLine("!!!All Numbers Drawn, Cannot Draw Duplicate Numbers!!!");
-            }else{
-
-            int rand;
-            do
+        {
+            if (drawnNo.Count == this.upperNumber)
             {
-                rand = random.Next(1, this.upperNumber + 1);
-            } while (drawnNo.Contains(rand));
-            drawnNo.Add(rand);
+                System.Console.WriteLine("!!!All Numbers Drawn, Cannot Draw Duplicate Numbers!!!");
+            }
+            else
+            {
+
+                int rand;
+                do
+                {
+                    rand = random.Next(1, this.upperNumber + 1);
+                } while (drawnNo.Contains(rand));
+                drawnNo.Add(rand);
             }
             bingoMenu();
         }
@@ -105,13 +108,32 @@ namespace bingo
         }
         public void ViewDrNo1()
         {
-            drawnNo.ForEach(x => { Console.WriteLine(x); }); //displays numbers from list
+            // drawnNo.ForEach(x => { Console.WriteLine(x); }); //displays numbers from list
+            // ViewDrNo();
+
+            
+
+            foreach (int x in drawnNo)
+            {
+                Console.WriteLine(x);
+            }
             ViewDrNo();
+
+            /* int i;
+            for (i = 1; i <= 10; i++)
+            {
+                System.Console.WriteLine(i);
+            }
+            ViewDrNo(); */
+
         }
         public void ViewDrNo2()
         {
-            drawnNo.Sort(); //sorts the numbers
-            drawnNo.ForEach(x => { Console.WriteLine(x); }); //displays numbers from list
+            List<int> lstNew = new List<int>();
+            lstNew.AddRange(drawnNo);
+
+            lstNew.Sort(); //sorts the numbers
+            lstNew.ForEach(x => { Console.WriteLine(x); }); //displays numbers from list
             ViewDrNo();
         }
 
