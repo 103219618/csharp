@@ -25,6 +25,7 @@ namespace newrolldice
             Menu();
         }
 
+
         public void DiceGen()
         {
             Random rand = new Random();
