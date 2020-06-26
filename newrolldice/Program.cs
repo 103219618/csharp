@@ -6,7 +6,7 @@ namespace newrolldice
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
             Dice newDice = new Dice();
             newDice.Menu();
         }
@@ -18,13 +18,13 @@ namespace newrolldice
     {
         public List<int> rollHistory1 = new List<int>();
         public List<int> rollHistory2 = new List<int>();
+
         public void Roll()
         {
             System.Console.WriteLine("Dice 1 was Rolled " + rollHistory1.Count + " Times!");
             System.Console.WriteLine("Dice 2 was Rolled " + rollHistory2.Count + " Times!");
             Menu();
         }
-
 
         public void DiceGen()
         {
