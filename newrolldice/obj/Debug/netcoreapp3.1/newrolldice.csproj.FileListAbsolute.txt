@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/obj/Debug/netcoreapp3.1/newrolldice.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/obj/Debug/netcoreapp3.1/newrolldice.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/obj/Debug/netcoreapp3.1/newrolldice.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/bin/Debug/netcoreapp3.1/newrolldice.deps.json
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/bin/Debug/netcoreapp3.1/newrolldice.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/bin/Debug/netcoreapp3.1/newrolldice.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/bin/Debug/netcoreapp3.1/newrolldice.dll
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/bin/Debug/netcoreapp3.1/newrolldice.pdb
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/obj/Debug/netcoreapp3.1/newrolldice.dll
+/Users/syedasimrazvi/Desktop/csharp/newrolldice/obj/Debug/netcoreapp3.1/newrolldice.pdb
