@@ -1,0 +1,3 @@
+/Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.AssemblyInfo.cs
