@@ -1,17 +1,25 @@
+using System.Collections.Generic;
+
 namespace beehive
 {
     public class BeeHiveList
     {
-        public List<Bee> beesList1;
-        public List<Bee> beesList2;
+        public List<Bees> bees;
+        public int maxBees = 4;
         public BeeHiveList()
         {
-            this.beesList1 = new List<Bee>();
-            this.beesList2 = new List<Bee>();
+            this.bees = new List<Bees>();
+            this.maxBees = 4;
         }
-        public void AddBees(Car newBee)
+        public void AddBees(Bees newBee)
         {
-            this.beesList.Add(newBee);
+            if (bees.Count > this.maxBees)
+            {
+                System.Console.WriteLine("maximum bees in the hive");
+            } else
+            this.bees.Add(newBee);
         }
+
+        
     }
 }

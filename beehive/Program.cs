@@ -7,25 +7,27 @@ namespace beehive
     {
         static void Main(string[] args)
         {
-            Bee John = new Bee(3);
-            Bee Paul = new Bee(2);
-            Bee George = new Bee(1);
-            Bee Ringo = new Bee(2);
+            Bees John = new Bees("John", 3);
+            Bees Paul = new Bees("Paul", 2);
+            Bees George = new Bees("George", 1);
+            Bees Ringo = new Bees("Ringo", 2);
 
-            Bee Kurt = new Bee(2);
-            Bee Dave = new Bee(7);
-            Bee Krist = new Bee(1);
+            Bees Kurt = new Bees("Kurt", 2);
+            Bees Dave = new Bees("Dave", 7);
+            Bees Krist = new Bees("Krist", 1);
 
-            Beehive b1 = new Beehive();
+            BeeHiveList b1 = new BeeHiveList();
             b1.AddBees(John);
             b1.AddBees(Paul);
             b1.AddBees(George);
             b1.AddBees(Ringo);
 
-            Beehive b2 = new Beehive();
+            BeeHiveList b2 = new BeeHiveList();
             b2.AddBees(Kurt);
             b2.AddBees(Dave);
             b2.AddBees(Krist);
+
+            System.Console.WriteLine("Bees: " + );
         }
     }
 }
