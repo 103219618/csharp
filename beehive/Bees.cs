@@ -3,7 +3,7 @@ namespace beehive
     public class Bees
     {
         public string Name;
-        public float Size; //use float for decimal
+        public float Size;
 
         public Bees()
         {

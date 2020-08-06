@@ -20,8 +20,11 @@ namespace beehive
             this.bees.Add(newBee);
         }
 
-        public void CollectHoney(int day){
-            
+        public void CollectHoney(int days){
+            foreach (Bees x in this.bees) {
+                float Amount = days * x.Size * 0.2F;
+                System.Console.WriteLine("Honey Collected by " + x.Name + " is: " + Amount);
+            }
         }
     }
 }

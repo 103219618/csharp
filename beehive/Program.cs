@@ -27,7 +27,13 @@ namespace beehive
             b2.AddBees(Dave);
             b2.AddBees(Krist);
 
-            System.Console.WriteLine("Bees: " + );
+            System.Console.WriteLine("Who Collected Most Honey?");
+            System.Console.WriteLine("Bee Hive 1");
+            b1.CollectHoney(10);
+            System.Console.WriteLine("Bee Hive 2");
+            b2.CollectHoney(10);
+
+
         }
     }
 }

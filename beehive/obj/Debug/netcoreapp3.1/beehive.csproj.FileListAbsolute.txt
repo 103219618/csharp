@@ -1,3 +1,10 @@
 /Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.csprojAssemblyReference.cache
 /Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.AssemblyInfoInputs.cache
 /Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/beehive/bin/Debug/netcoreapp3.1/beehive.deps.json
+/Users/syedasimrazvi/Desktop/csharp/beehive/bin/Debug/netcoreapp3.1/beehive.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/beehive/bin/Debug/netcoreapp3.1/beehive.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/beehive/bin/Debug/netcoreapp3.1/beehive.dll
+/Users/syedasimrazvi/Desktop/csharp/beehive/bin/Debug/netcoreapp3.1/beehive.pdb
+/Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.dll
+/Users/syedasimrazvi/Desktop/csharp/beehive/obj/Debug/netcoreapp3.1/beehive.pdb
