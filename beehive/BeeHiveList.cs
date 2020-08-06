@@ -20,6 +20,8 @@ namespace beehive
             this.bees.Add(newBee);
         }
 
-        
+        public void CollectHoney(int day){
+            
+        }
     }
 }

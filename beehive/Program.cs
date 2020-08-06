@@ -7,14 +7,14 @@ namespace beehive
     {
         static void Main(string[] args)
         {
-            Bees John = new Bees("John", 3);
-            Bees Paul = new Bees("Paul", 2);
-            Bees George = new Bees("George", 1);
-            Bees Ringo = new Bees("Ringo", 2);
+            Bees John = new Bees("John", 3.2F);
+            Bees Paul = new Bees("Paul", 2.7F);
+            Bees George = new Bees("George", 1.1F);
+            Bees Ringo = new Bees("Ringo", 2.0F);
 
-            Bees Kurt = new Bees("Kurt", 2);
-            Bees Dave = new Bees("Dave", 7);
-            Bees Krist = new Bees("Krist", 1);
+            Bees Kurt = new Bees("Kurt", 2.3F);
+            Bees Dave = new Bees("Dave", 7.4F);
+            Bees Krist = new Bees("Krist", 1.5F);
 
             BeeHiveList b1 = new BeeHiveList();
             b1.AddBees(John);
