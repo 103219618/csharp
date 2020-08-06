@@ -34,8 +34,7 @@ namespace beehive
             b1.CollectHoney(10);
             System.Console.WriteLine("Bee Hive 2");
             b2.CollectHoney(10);
-
-
+            System.Console.WriteLine("******************************************************");
         }
     }
 }
