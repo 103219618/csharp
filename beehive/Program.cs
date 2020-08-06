@@ -11,6 +11,7 @@ namespace beehive
             Bees Paul = new Bees("Paul", 2.7F);
             Bees George = new Bees("George", 1.1F);
             Bees Ringo = new Bees("Ringo", 2.0F);
+            Bees EXTRA = new Bees("EXTRA", 1.0F);
 
             Bees Kurt = new Bees("Kurt", 2.3F);
             Bees Dave = new Bees("Dave", 7.4F);
@@ -21,6 +22,7 @@ namespace beehive
             b1.AddBees(Paul);
             b1.AddBees(George);
             b1.AddBees(Ringo);
+            b1.AddBees(EXTRA);
 
             BeeHiveList b2 = new BeeHiveList();
             b2.AddBees(Kurt);

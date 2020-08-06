@@ -13,9 +13,11 @@ namespace beehive
         }
         public void AddBees(Bees newBee)
         {
-            if (bees.Count > this.maxBees)
+            if (bees.Count >= this.maxBees)
             {
-                System.Console.WriteLine("maximum bees in the hive");
+                System.Console.WriteLine("******************************************************");
+                System.Console.WriteLine("Maximum Bees in the Hive!!! Extra Bee/Bees Removed!!!");
+                System.Console.WriteLine("******************************************************");
             } else
             this.bees.Add(newBee);
         }
