@@ -20,10 +20,7 @@ namespace exception
 
         public void EntryDetails()
         {
-            foreach (Person x in this.person)
-            {
-                System.Console.WriteLine("Please Select Room Number: (TD224 OR AGSE111) ?");
-            }
+            System.Console.Write("Please Select Room Number: (TD224 OR AGSE111) ?");
         }
     }
 }
