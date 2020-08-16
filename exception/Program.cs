@@ -12,8 +12,9 @@ namespace exception
             Room r = new Room();
             r.AddPerson(John);
             r.AddPerson(Jane);
-            
-             
+
+            r.EntryDetails();
+            System.Console.WriteLine("TEST");
         }
     }
 }

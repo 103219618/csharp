@@ -22,7 +22,7 @@ namespace exception
         {
             foreach (Person x in this.person)
             {
-System.Console.WriteLine("Please Select Room Number: (TD224 OR AGSE111) ?");
+                System.Console.WriteLine("Please Select Room Number: (TD224 OR AGSE111) ?");
             }
         }
     }

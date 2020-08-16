@@ -1,0 +1,10 @@
+/Users/syedasimrazvi/Desktop/csharp/exception/bin/Debug/netcoreapp3.1/exception.deps.json
+/Users/syedasimrazvi/Desktop/csharp/exception/bin/Debug/netcoreapp3.1/exception.runtimeconfig.json
+/Users/syedasimrazvi/Desktop/csharp/exception/bin/Debug/netcoreapp3.1/exception.runtimeconfig.dev.json
+/Users/syedasimrazvi/Desktop/csharp/exception/bin/Debug/netcoreapp3.1/exception.dll
+/Users/syedasimrazvi/Desktop/csharp/exception/bin/Debug/netcoreapp3.1/exception.pdb
+/Users/syedasimrazvi/Desktop/csharp/exception/obj/Debug/netcoreapp3.1/exception.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/exception/obj/Debug/netcoreapp3.1/exception.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/exception/obj/Debug/netcoreapp3.1/exception.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/exception/obj/Debug/netcoreapp3.1/exception.dll
+/Users/syedasimrazvi/Desktop/csharp/exception/obj/Debug/netcoreapp3.1/exception.pdb
