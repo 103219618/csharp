@@ -6,7 +6,7 @@ namespace exception
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Enter Room Number:");
+            Console.WriteLine("Hello World!");
         }
     }
 }
