@@ -21,6 +21,7 @@ namespace exception
         public void EntryDetails()
         {
             System.Console.WriteLine("Please Select Room Number: (TD224 OR AGSE111) ?");
+            //string roomname = System.Console.ReadLine();
         }
     }
 }

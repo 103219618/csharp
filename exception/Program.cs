@@ -20,6 +20,7 @@ namespace exception
                 if (Room != "TD224" && Room != "AGSE111")
                 {
                     throw new Exception();
+                    
                 }
 
             }
@@ -27,9 +28,11 @@ namespace exception
             {
                 System.Console.WriteLine("Please Check the Room & Try Again!!!");
                 // System.Environment.Exit(1); cleaner way to exit
-                return;
+                //return;
+        
             }
-
+            
+            
             System.Console.WriteLine("Please Enter Name");
             string Name = System.Console.ReadLine();
             try
@@ -41,7 +44,7 @@ namespace exception
             }
             catch
             {
-                System.Console.WriteLine($"Incorrect Name!!!");
+                System.Console.WriteLine("Incorrect Name!!!");
             }
 
             Console.Write("Entry Date (Format - MM/DD/YY): ");
@@ -69,6 +72,11 @@ namespace exception
                 System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message},START AGAIN PLEASE!");
                 System.Environment.Exit(1);
             }
+            catch (FormatException ex)
+            {
+                System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message},START AGAIN PLEASE!");
+                System.Environment.Exit(1);
+            }
 
             int time = 0;
             System.Console.WriteLine("Duration Room will be Booked: ");
@@ -82,7 +90,7 @@ namespace exception
                     throw new Exception();
                 }
             }
-            catch (FormatException ex)
+            catch (Exception ex)
             {
                 System.Console.WriteLine($"Error - {ex.Message}");
             }
