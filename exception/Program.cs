@@ -76,6 +76,11 @@ namespace exception
             try
             {
                 time = TimeStayed;
+
+                if (time < 12)
+                {
+                    throw new Exception();
+                }
             }
             catch (FormatException ex)
             {
