@@ -55,7 +55,7 @@ namespace exception
             }
             catch (NullReferenceException ex)
             {
-                System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message}, START AGAIN PLEASE! ");
+                System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message}, START AGAIN PLEASE!");
                 System.Environment.Exit(1);
             }
 
@@ -66,7 +66,7 @@ namespace exception
             }
             catch (NullReferenceException ex)
             {
-                System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message},START AGAIN PLEASE! ");
+                System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message},START AGAIN PLEASE!");
                 System.Environment.Exit(1);
             }
 
