@@ -41,7 +41,7 @@ namespace exception
             }
             catch
             {
-                System.Console.WriteLine("Incorrect Name!!!");
+                System.Console.WriteLine($"Incorrect Name!!!");
             }
 
             Console.Write("Entry Date (Format - MM/DD/YY): ");
@@ -70,8 +70,17 @@ namespace exception
                 System.Environment.Exit(1);
             }
 
-            Console.Write("Duration Room will be Booked: ");
+            int time = 0;
+            System.Console.WriteLine("Duration Room will be Booked: ");
             int TimeStayed = int.Parse(Console.ReadLine());
+            try
+            {
+                time = TimeStayed;
+            }
+            catch (FormatException ex)
+            {
+                System.Console.WriteLine($"Error - {ex.Message}");
+            }
         }
     }
 }
