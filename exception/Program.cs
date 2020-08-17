@@ -81,6 +81,10 @@ namespace exception
             {
                 System.Console.WriteLine($"Error - {ex.Message}");
             }
+            finally
+            {
+                System.Console.WriteLine("Thank You For The Details!");
+            }
         }
     }
 }
