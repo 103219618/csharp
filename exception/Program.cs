@@ -14,7 +14,6 @@ namespace exception
             r.AddPerson(Jane);
 
             r.EntryDetails();
-            System.Console.WriteLine();
             string Room = System.Console.ReadLine();
             try
             {
@@ -22,10 +21,13 @@ namespace exception
                 {
                     throw new Exception();
                 }
+
             }
             catch
             {
                 System.Console.WriteLine("Please Check the Room & Try Again!!!");
+                // System.Environment.Exit(1); cleaner way to exit
+                return;
             }
 
             System.Console.WriteLine("Please Enter Name");
@@ -64,11 +66,11 @@ namespace exception
             }
             catch (NullReferenceException ex)
             {
-                System.Console.WriteLine($"Object doesn't exist :( Closing Program - {ex.Message},let's Do it again ");
+                System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message},START AGAIN PLEASE! ");
                 System.Environment.Exit(1);
             }
 
-            Console.Write("Duration Room Was Booked: ");
+            Console.Write("Duration Room will be Booked: ");
             int TimeStayed = int.Parse(Console.ReadLine());
         }
     }
