@@ -41,6 +41,35 @@ namespace exception
             {
                 System.Console.WriteLine("Incorrect Name!!!");
             }
+
+            Console.Write("Entry Date (Format - MM/DD/YY): ");
+            try
+            {
+                DateTime DateEntered = DateTime.Parse(Console.ReadLine());
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine($"Incorrect Datatype Entered, {ex.Message}, Please Try Again!");
+            }
+            catch (NullReferenceException ex)
+            {
+                System.Console.WriteLine($"Object Doesn't Exist, Closing Program... - {ex.Message}, START AGAIN PLEASE! ");
+                System.Environment.Exit(1);
+            }
+
+            Console.Write("Entry Time (Format - HH:MM): ");
+            try
+            {
+                DateTime TimeEntered = DateTime.Parse(Console.ReadLine());
+            }
+            catch (NullReferenceException ex)
+            {
+                System.Console.WriteLine($"Object doesn't exist :( Closing Program - {ex.Message},let's Do it again ");
+                System.Environment.Exit(1);
+            }
+
+            Console.Write("Duration Room Was Booked: ");
+            int TimeStayed = int.Parse(Console.ReadLine());
         }
     }
 }
