@@ -1,0 +1,8 @@
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/bin/Debug/netstandard2.0/Templib.deps.json
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/bin/Debug/netstandard2.0/Templib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/bin/Debug/netstandard2.0/Templib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/obj/Debug/netstandard2.0/Templib.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/obj/Debug/netstandard2.0/Templib.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/obj/Debug/netstandard2.0/Templib.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/obj/Debug/netstandard2.0/Templib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/Templib/obj/Debug/netstandard2.0/Templib.pdb

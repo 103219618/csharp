@@ -1,0 +1,8 @@
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/bin/Debug/netstandard2.0/CarLib.deps.json
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/bin/Debug/netstandard2.0/CarLib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/bin/Debug/netstandard2.0/CarLib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/obj/Debug/netstandard2.0/CarLib.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/obj/Debug/netstandard2.0/CarLib.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/obj/Debug/netstandard2.0/CarLib.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/obj/Debug/netstandard2.0/CarLib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/CarLib/obj/Debug/netstandard2.0/CarLib.pdb

@@ -1,0 +1,11 @@
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/bin/Debug/netstandard2.0/PersonLib.deps.json
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/bin/Debug/netstandard2.0/PersonLib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/bin/Debug/netstandard2.0/PersonLib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/obj/Debug/netstandard2.0/PersonLib.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/obj/Debug/netstandard2.0/PersonLib.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/obj/Debug/netstandard2.0/PersonLib.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/obj/Debug/netstandard2.0/PersonLib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/obj/Debug/netstandard2.0/PersonLib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/bin/Debug/netstandard2.0/CarLib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/bin/Debug/netstandard2.0/CarLib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/PersonLib/obj/Debug/netstandard2.0/PersonLib.csproj.CopyComplete

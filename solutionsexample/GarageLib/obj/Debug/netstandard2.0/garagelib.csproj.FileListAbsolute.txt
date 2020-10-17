@@ -1,0 +1,11 @@
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/garagelib/bin/Debug/netstandard2.0/garagelib.deps.json
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/bin/Debug/netstandard2.0/garagelib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/bin/Debug/netstandard2.0/garagelib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/obj/Debug/netstandard2.0/garagelib.csprojAssemblyReference.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/obj/Debug/netstandard2.0/garagelib.AssemblyInfoInputs.cache
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/obj/Debug/netstandard2.0/garagelib.AssemblyInfo.cs
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/obj/Debug/netstandard2.0/garagelib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/obj/Debug/netstandard2.0/garagelib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/bin/Debug/netstandard2.0/carlib.dll
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/bin/Debug/netstandard2.0/carlib.pdb
+/Users/syedasimrazvi/Desktop/csharp/solutionsexample/GarageLib/obj/Debug/netstandard2.0/GarageLib.csproj.CopyComplete
