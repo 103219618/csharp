@@ -10,5 +10,18 @@ namespace MaskApi.models
         public string Design { get; set; }
         public bool Reusable { get; set; }
         public double Cost { get; set; }
+
+        //constructor
+        public Mask(string maskId, int size, string colour, bool @new, bool preInfected, string design, bool reusable, double cost)
+        {
+            MaskId = maskId;
+            Size = size;
+            Colour = colour;
+            New = @new;
+            PreInfected = preInfected;
+            Design = design;
+            Reusable = reusable;
+            Cost = cost;
+        }
     }
 }
