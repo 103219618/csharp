@@ -1,3 +1,5 @@
+using System;
+
 namespace MaskApi.models
 {
     public class Order
@@ -8,15 +10,23 @@ namespace MaskApi.models
         public int Qty { get; set; }
         public double Price { get; set; }
 
-        public Order(int orderNo, Mask mask, int qty, double price) //constructor
+        public Order(Mask mask, int qty) // order constructor
         {
-            OrderNo = orderNo;
-            Mask = mask;
-            Qty = qty;
-            Price = price;
+            this.OrderNo = this.GenerateOrderNo();
+            this.Mask = mask;
+            this.Qty = qty;
+            this.SetPrice();
         }
-        public void SetPrice() {
+        public void SetPrice()
+        {
             this.Price = this.Qty * Mask.Cost;
+        }
+
+        //creating random generator
+        public int GenerateOrderNo()
+        {
+            Random rand = new Random();
+            return rand.Next(1000, 10000);
         }
     }
 }
