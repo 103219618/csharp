@@ -31,13 +31,13 @@ namespace MaskTests
 
 
             if(num1 == num2 || num1 == num3 || num1 == num4 || num2 == num3 || num2 == num4 || num3 == num4) {
-                Assert.True(False);
+                Assert.True(false);
             }
 
             if((num1 >= 1000 && num1 <= 9999) && (num2 >= 1000 && num2 <= 9999) && (num3 >= 1000 && num3 <= 9999) && (num4 >= 1000 && num4 <= 9999)) {
-                Assert.True(True);
+                Assert.True(true);
             } else {
-                Assert.True(False);
+                Assert.True(false);
             }
 
         }
