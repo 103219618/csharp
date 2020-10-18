@@ -43,8 +43,18 @@ namespace MaskApi.Controllers
         }
 
         [HttpPost]
-        public int MakeOrder() {
-            return 0;
+        public int MakeOrder(MaskRequest request) {
+            //LINQ Action, similar to above GetOrder
+            Mask found = MasksInStock.Find(m => m.MaskId == request.MaskId);
+
+            if(found == null) {
+                return 0;
+            }
+
+            Order newOrder = new Order(found, request.Qty);
+            Orders.Add(newOrder);
+
+            return newOrder.OrderNo;
         }
     }
 }
