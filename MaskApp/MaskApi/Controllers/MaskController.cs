@@ -24,7 +24,7 @@ namespace MaskApi.Controllers
             return MasksInStock;
         }
 
-        [HttpGet("{maskId")]
+        [HttpGet("{maskId}")]
         public Mask GetMask(string maskId)
         {
             Mask found = null;
