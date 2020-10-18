@@ -9,6 +9,7 @@ namespace MaskApi.Controllers
     public class OrderController : ControllerBase
     {
         public static List<Mask> MasksInStock = new List<Mask>();
+        public static List<Order> Orders = new List<Order>();
 
         public OrderController()
         {
@@ -16,26 +17,34 @@ namespace MaskApi.Controllers
             MasksInStock.Add(new Mask("m-8888", 3, "Black", false, true, "RaceCars", true, 3.50));
             MasksInStock.Add(new Mask("m-7777", 1, "Pink", true, false, "Peppa Pig", true, 5.00));
             MasksInStock.Add(new Mask("m-6666", 3, "Yellow", false, true, "Sponge Bob", true, 5.50));
+
+            Orders.Add(new Order(new Mask("m-9999", 1, "White", true, false, "Flowers", true, 10.00), 20));
+            Orders.Add(new Order(new Mask("m-7777", 1, "Pink", true, false, "Peppa Pig", true, 15.00), 5));
         }
 
         [HttpGet("GetAll")]
-        public List<Mask> GetAll()
+        public List<Order> GetAll()
         {
-            return MasksInStock;
+            return Orders;
         }
 
-        [HttpGet("{maskId}")]
-        public Mask GetMask(string maskId)
+        [HttpGet("{orderNo}")]
+        public Order GetOrder(int orderNo)
         {
-            Mask found = null;
-            foreach(Mask mask in MasksInStock) {
-                if (maskId == mask.MaskId) {
-                    found = mask;
+            Order found = null;
+            foreach(Order order in Orders) {
+                if (orderNo == order.OrderNo) {
+                    found = order;
                     break;
                 }
             }
 
             return found;
+        }
+
+        [HttpPost]
+        public int MakeOrder() {
+            return 0;
         }
     }
 }
